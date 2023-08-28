@@ -23,7 +23,7 @@
     </div>
     <div class="mb-3">
         <label for="" form="form-label">Categoria</label>
-        <input id="Categoria" name="Categoria" type="text" class="form-control" tabindex="5">
+        <select id="Categoria" name="Categoria" type="text" class="form-control" tabindex="5">
     </div>
     <div class="mb-3">
         <label for="" form="form-label">Cantidad</label>

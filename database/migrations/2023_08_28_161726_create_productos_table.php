@@ -16,7 +16,17 @@ return new class extends Migration
             $table->string('Codigo');
             $table->string('Nombre');
             $table->string('Descripcion');
-            $table->string('Categoria');
+
+
+            $table->foreignId('id_categoria')
+            ->nullable()
+            ->constrained('categorias')
+            ->cascadeOnUpdate()
+            ->nullOnDelete();
+            
+            
+            
+            
             $table->integer('Cantidad');
             $table->decimal('Precio',8 ,2);
             $table->timestamps();

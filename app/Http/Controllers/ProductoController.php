@@ -36,7 +36,6 @@ class ProductoController extends Controller
         $productos -> Codigo = $request -> get('Codigo');
         $productos -> Nombre = $request -> get('Nombre');
         $productos -> Descripcion = $request -> get('Descripcion');
-        $productos -> Categoria = $request -> get('Categoria');
         $productos -> Cantidad = $request -> get('Cantidad');
         $productos -> Precio = $request -> get('Precio');
 
@@ -71,7 +70,6 @@ class ProductoController extends Controller
         $producto -> Codigo = $request -> get('Codigo');
         $producto -> Nombre = $request -> get('Nombre');
         $producto -> Descripcion = $request -> get('Descripcion');
-        $producto -> Categoria = $request -> get('Categoria');
         $producto -> Cantidad = $request -> get('Cantidad');
         $producto -> Precio = $request -> get('Precio');
 

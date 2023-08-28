@@ -30,7 +30,7 @@
         <td>{{$producto->Codigo}}</td>
         <td>{{$producto->Nombre}}</td>
         <td>{{$producto->Descripcion}}</td>
-        <td>{{$producto->Categoria}}</td>
+        <td>{{$producto->id_categoria}}</td>
         <td>{{$producto->Cantidad}}</td>
         <td>{{$producto->Precio}}</td>
         <td>
